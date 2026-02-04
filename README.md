@@ -37,8 +37,8 @@ Main modules:
 - Comparator
 - Control FSM
 - Top-Level Integration
+![Waveform](blackbox.JPG)
 
-![Architecture](images/architecture.png)
 
 ---
 
@@ -86,7 +86,7 @@ Source files are located in the `RTL/` directory.
 - Area reports
 - Power reports
 - QoR reports
-
+![CTS](PowerReport.JPG)
 ---
 
 ## ⏱ Static Timing Analysis (Pre-Layout)
@@ -120,9 +120,9 @@ Pre-layout STA confirmed timing feasibility prior to physical design.
 - Updated SDC
 - DEF/LEF views
 
-![Layout](images/layout.png)
+![Layout](PostlayoutTiminganalalysis.JPG)
 
-![CTS](images/cts.png)
+![CTS](ICC2.JPG)
 
 ---
 
@@ -182,5 +182,6 @@ The design achieved stable operation across all process corners with verified fu
 ---
 
 ## 📁 Repository Structure
+
 
 
