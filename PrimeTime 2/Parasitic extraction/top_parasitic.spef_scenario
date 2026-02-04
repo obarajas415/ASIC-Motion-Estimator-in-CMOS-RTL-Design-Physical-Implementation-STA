@@ -1,0 +1,6 @@
+./outputs/top_parasitic.tlup_max_125.spef for scenarios: 
+	 scenario: func_slow, corner type: late/early
+
+./outputs/top_parasitic.tlup_min_125.spef for scenarios: 
+	 scenario: func_fast, corner type: late/early
+

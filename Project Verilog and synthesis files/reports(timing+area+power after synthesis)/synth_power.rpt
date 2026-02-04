@@ -1,0 +1,63 @@
+Loading db file '/packages/process_kit/generic/generic_14nm/stdcell_slvt/db_ccs/saed14slvt_ff0p88v125c.db'
+Loading db file '/packages/process_kit/generic/generic_14nm/stdcell_hvt/db_ccs/saed14hvt_ff0p88v125c.db'
+Loading db file '/packages/process_kit/generic/generic_14nm/stdcell_rvt/db_ccs/saed14rvt_ff0p88v125c.db'
+Loading db file '/packages/process_kit/generic/generic_14nm/stdcell_lvt/db_ccs/saed14lvt_ff0p88v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : top
+Version: O-2018.06-SP4
+Date   : Wed Dec  3 16:00:33 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14slvt_ff0p88v125c (File: /packages/process_kit/generic/generic_14nm/stdcell_slvt/db_ccs/saed14slvt_ff0p88v125c.db)
+    saed14hvt_ff0p88v125c (File: /packages/process_kit/generic/generic_14nm/stdcell_hvt/db_ccs/saed14hvt_ff0p88v125c.db)
+    saed14rvt_ff0p88v125c (File: /packages/process_kit/generic/generic_14nm/stdcell_rvt/db_ccs/saed14rvt_ff0p88v125c.db)
+    saed14lvt_ff0p88v125c (File: /packages/process_kit/generic/generic_14nm/stdcell_lvt/db_ccs/saed14lvt_ff0p88v125c.db)
+
+
+Operating Conditions: ff0p88v125c   Library: saed14hvt_ff0p88v125c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+top                    8000              saed14hvt_ff0p88v125c
+
+
+Global Operating Voltage = 0.88 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 109.7488 uW   (86%)
+  Net Switching Power  =  17.1759 uW   (14%)
+                         ---------
+Total Dynamic Power    = 126.9246 uW  (100%)
+
+Cell Leakage Power     = 862.7610 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register          72.8992            2.4409        1.7857e+08          253.9066  (  25.66%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational     36.8496           14.7350        6.8419e+08          735.7791  (  74.34%)
+--------------------------------------------------------------------------------------------------
+Total            109.7487 uW        17.1759 uW     8.6276e+08 pW       989.6857 uW
+1

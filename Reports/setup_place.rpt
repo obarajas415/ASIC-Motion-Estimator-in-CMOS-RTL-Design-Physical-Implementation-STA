@@ -1,0 +1,74 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : top
+Version: S-2021.06-SP5-1
+Date   : Wed Dec 10 12:49:22 2025
+****************************************
+
+  Startpoint: ctl_u/count_reg[3] (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Endpoint: comp_u/BestDist_reg[2] (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: ideal_clock1
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock ideal_clock1 (rise edge)                   0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+
+  ctl_u/count_reg[3]/CK (SAEDRVT14_FSDPQ_V2LP_0P5)
+                                                   0.00      0.00 r
+  ctl_u/count_reg[3]/Q (SAEDRVT14_FSDPQ_V2LP_0P5)
+                                                   0.05      0.05 f
+  ctl_u/U76/X (SAEDRVT14_INV_S_0P5)                0.04      0.09 r
+  ctl_u/U64/X (SAEDHVT14_ND2_CDC_0P5)              0.03      0.12 f
+  ctl_u/U63/X (SAEDRVT14_INV_S_0P5)                0.02      0.14 r
+  ctl_u/U56/X (SAEDHVT14_ND2_CDC_1)                0.02      0.16 f
+  ctl_u/U55/X (SAEDRVT14_INV_S_0P5)                0.01      0.18 r
+  ctl_u/U53/X (SAEDHVT14_ND2_CDC_1)                0.02      0.20 f
+  ctl_u/U52/X (SAEDHVT14_NR2_1)                    0.03      0.23 r
+  ctl_u/U35/X (SAEDRVT14_AN2_MM_0P5)               0.01      0.24 r
+  comp_u/U26/X (SAEDHVT14_ND2B_U_0P5)              0.02      0.27 r
+  comp_u/U20/X (SAEDHVT14_AO21B_0P5)               0.01      0.27 f
+  comp_u/U17/X (SAEDRVT14_AO221_0P5)               0.02      0.29 f
+  comp_u/U36/X (SAEDSLVT14_OAI21_0P5)              0.01      0.30 r
+  comp_u/U28/X (SAEDHVT14_AO21B_0P5)               0.01      0.30 f
+  comp_u/U27/X (SAEDRVT14_AO221_0P5)               0.02      0.32 f
+  comp_u/U21/X (SAEDRVT14_OA21B_1)                 0.02      0.34 f
+  comp_u/U64/X (SAEDRVT14_AO221_0P5)               0.02      0.36 f
+  comp_u/U16/X (SAEDRVT14_OR2B_PMM_2)              0.01      0.37 f
+  comp_u/ctmTdsLR_1_14/X (SAEDRVT14_AO22_0P5)      0.01      0.38 f
+  comp_u/ctmTdsLR_2_30/X (SAEDRVT14_OAI22_0P5)     0.01      0.38 r
+  comp_u/ctmTdsLR_2_49/X (SAEDSLVT14_AOI21_0P75)   0.01      0.39 f
+  comp_u/ctmTdsLR_3_55/X (SAEDRVT14_OA221_U_0P5)   0.01      0.40 f
+  comp_u/ctmTdsLR_2_60/X (SAEDRVT14_AO221_0P5)     0.01      0.42 f
+  comp_u/U150/X (SAEDHVT14_OAI21_0P75)             0.01      0.42 r
+  comp_u/ctmTdsLR_1_66/X (SAEDHVT14_AO21B_0P5)     0.00      0.43 f
+  comp_u/U37/X (SAEDHVT14_OAI21_0P75)              0.01      0.43 r
+  comp_u/U151/X (SAEDRVT14_OAI311_1)               0.04      0.48 f
+  comp_u/U132/X (SAEDSLVT14_INV_S_0P5)             0.03      0.51 r
+  comp_u/U24/X (SAEDHVT14_AO221_0P5)               0.03      0.54 r
+  comp_u/BestDist_reg[2]/D (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.00      0.54 r
+  data arrival time                                          0.54
+
+  clock ideal_clock1 (rise edge)                   3.80      3.80
+  clock network delay (ideal)                      0.00      3.80
+  comp_u/BestDist_reg[2]/CK (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.00      3.80 r
+  library setup time                              -0.01      3.79
+  data required time                                         3.79
+  ------------------------------------------------------------------------
+  data required time                                         3.79
+  data arrival time                                         -0.54
+  ------------------------------------------------------------------------
+  slack (MET)                                                3.26
+
+
+1

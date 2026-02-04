@@ -1,0 +1,33 @@
+ 
+****************************************
+Report : area
+Design : top
+Version: O-2018.06-SP4
+Date   : Wed Dec  3 15:59:02 2025
+****************************************
+
+Library(s) Used:
+
+    saed14slvt_ff0p88v125c (File: /packages/process_kit/generic/generic_14nm/stdcell_slvt/db_ccs/saed14slvt_ff0p88v125c.db)
+    saed14hvt_ff0p88v125c (File: /packages/process_kit/generic/generic_14nm/stdcell_hvt/db_ccs/saed14hvt_ff0p88v125c.db)
+    saed14rvt_ff0p88v125c (File: /packages/process_kit/generic/generic_14nm/stdcell_rvt/db_ccs/saed14rvt_ff0p88v125c.db)
+    saed14lvt_ff0p88v125c (File: /packages/process_kit/generic/generic_14nm/stdcell_lvt/db_ccs/saed14lvt_ff0p88v125c.db)
+
+Number of ports:                         2100
+Number of nets:                          3536
+Number of cells:                         1409
+Number of combinational cells:           1080
+Number of sequential cells:               277
+Number of macros/black boxes:               0
+Number of buf/inv:                        383
+Number of references:                       5
+
+Combinational area:                578.176789
+Buf/Inv area:                       86.446799
+Noncombinational area:             311.110801
+Macro/Black Box area:                0.000000
+Net Interconnect area:             880.765264
+
+Total cell area:                   889.287590
+Total area:                       1770.052854
+1
