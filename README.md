@@ -58,7 +58,7 @@ Main modules:
 
 Verification confirmed correct distortion calculation and motion vector selection.
 
-![Waveform](images/waveform.png)
+![Waveform](images/Waveform.JPG)
 
 ---
 
@@ -182,3 +182,4 @@ The design achieved stable operation across all process corners with verified fu
 ---
 
 ## 📁 Repository Structure
+
